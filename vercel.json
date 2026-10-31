@@ -1,9 +1,9 @@
 {
   "version": 2,
   "framework": null,
-  "buildCommand": "",
+  "buildCommand": "npm run build",
   "installCommand": "",
-  "outputDirectory": ".",
+  "outputDirectory": "dist",
   "cleanUrls": true,
   "trailingSlash": false
 }
