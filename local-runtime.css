@@ -1,0 +1,12 @@
+#local-cookie-panel{position:fixed;z-index:10000;left:16px;bottom:16px;width:min(400px,calc(100vw - 32px));box-sizing:border-box;padding:17px 20px 16px;border:1px solid #ffffff1f;border-radius:16px;color:white;background:#100b09db;box-shadow:0 16px 50px #0005;backdrop-filter:blur(18px);font-family:inherit}
+#local-cookie-panel[hidden]{display:none!important}
+.local-cookie-title{margin:0 0 3px;font-size:15px;font-weight:600;line-height:1.45}
+.local-cookie-copy{margin:0;color:#ffffff9e;font-size:13px;line-height:1.45}
+.local-cookie-copy a{color:white;font-weight:600;text-decoration:none}
+.local-cookie-actions{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:13px}
+.local-cookie-actions button{min-height:42px;border:1px solid #ffffff1f;border-radius:999px;color:white;background:#050505;font-size:13px;font-weight:600;cursor:pointer;transition:background .16s,border-color .16s}
+.local-cookie-actions button:hover{border-color:#ffffff59;background:#171717}
+.local-cookie-actions button:focus-visible{outline:2px solid white;outline-offset:3px}
+.local-booking-note{position:fixed;z-index:45;left:50%;bottom:12px;transform:translateX(-50%);width:max-content;max-width:calc(100vw - 24px);padding:10px 16px;border:1px solid #ffffff30;border-radius:8px;background:#090909ed;color:#ffffffb3;text-align:center;font-size:12px;line-height:1.5;backdrop-filter:blur(14px)}
+.local-booking-note a{color:white;text-decoration:underline;text-underline-offset:3px}
+@media(max-width:480px){#local-cookie-panel{left:12px;bottom:12px;width:calc(100vw - 24px);padding:15px 16px 14px}}
