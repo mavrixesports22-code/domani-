@@ -1,0 +1,549 @@
+{
+  "products": [
+    {
+      "id": 15409783111838,
+      "title": "PANTHER DISCOVERY SET",
+      "handle": "panther-discovery-set",
+      "body_html": "<p>The Panther Collection Discovery Set brings together all five DOMANI parfums in 2 ml vials, presented in a slide box marked with the panther's gaze.</p>\n<p>It is the simplest way to meet the house: wear each scent on your own skin, through a full day, and discover which one feels like you.</p>\n<p>What's inside</p>\n<p>ALBORI · Sweet &amp; Gourmand<br>Pear, pink pepper, coffee, vanilla, patchouli.</p>\n<p>AZZURO · Fresh &amp; Aquatic<br>Peppermint, lavender, sea water, neroli, sandalwood.</p>\n<p>INIZIO · Warm, Spicy &amp; Sweet<br>Green cardamom, toffee, amberwood, bourbon vanilla.</p>\n<p>VELORA · Amber &amp; Woody<br>Saffron, jasmine, amberwood, ambergris, cedar.</p>\n<p>OBSIDIAN · Leather &amp; Smoky<br>Cardamom, black leather, jasmine sambac, amber, patchouli.</p>\n<p>5 × 2 ml / 5 × 0.06 fl. oz. Parfum.<br>A considered gift, and the perfect travel companion.</p>",
+      "published_at": "2026-10-20T14:36:45+05:30",
+      "created_at": "2026-10-20T14:36:44+05:30",
+      "updated_at": "2026-10-31T21:27:00+05:30",
+      "vendor": "DOMANI",
+      "product_type": "",
+      "tags": [],
+      "variants": [
+        {
+          "id": 67635307282590,
+          "title": "Default Title",
+          "option1": "Default Title",
+          "option2": null,
+          "option3": null,
+          "sku": null,
+          "requires_shipping": true,
+          "taxable": true,
+          "featured_image": null,
+          "available": true,
+          "price": "299.00",
+          "grams": 0,
+          "compare_at_price": null,
+          "position": 1,
+          "product_id": 15409783111838,
+          "created_at": "2026-10-20T14:36:44+05:30",
+          "updated_at": "2026-10-31T21:27:00+05:30"
+        }
+      ],
+      "images": [
+        {
+          "id": 53169444683934,
+          "created_at": "2026-10-31T01:40:28+05:30",
+          "position": 1,
+          "updated_at": "2026-10-31T01:40:30+05:30",
+          "product_id": 15409783111838,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0794/1105/2702/files/DOMANI_Discovery_Box_Square_2048.jpg?v=1793391030",
+          "width": 2048,
+          "height": 2048
+        },
+        {
+          "id": 53169444749470,
+          "created_at": "2026-10-31T01:40:28+05:30",
+          "position": 2,
+          "updated_at": "2026-10-31T01:40:30+05:30",
+          "product_id": 15409783111838,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0794/1105/2702/files/DOMANI_Discovery_Set_Square_2048.jpg?v=1793391030",
+          "width": 2048,
+          "height": 2048
+        },
+        {
+          "id": 53169444782238,
+          "created_at": "2026-10-31T01:40:28+05:30",
+          "position": 3,
+          "updated_at": "2026-10-31T01:40:30+05:30",
+          "product_id": 15409783111838,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0794/1105/2702/files/DOMANI_Discovery_Vials_Square_2048.jpg?v=1793391030",
+          "width": 2048,
+          "height": 2048
+        }
+      ],
+      "options": [
+        {
+          "name": "Title",
+          "position": 1,
+          "values": [
+            "Default Title"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 8882601656478,
+      "title": "OBSIDIAN",
+      "handle": "obsidian",
+      "body_html": "<p>Dark, smooth and magnetic. Cardamom opens with a spiced lift before black leather and jasmine sambac take the heart. Amber, patchouli and moss deepen into a warm, earthy base.</p>",
+      "published_at": "2026-09-14T13:24:04+05:30",
+      "created_at": "2026-09-14T13:24:03+05:30",
+      "updated_at": "2026-10-31T21:27:00+05:30",
+      "vendor": "Domani",
+      "product_type": "Parfum",
+      "tags": [
+        "amber",
+        "dark",
+        "fragrance",
+        "leather",
+        "parfum"
+      ],
+      "variants": [
+        {
+          "id": 48268990087326,
+          "title": "Default Title",
+          "option1": "Default Title",
+          "option2": null,
+          "option3": null,
+          "sku": null,
+          "requires_shipping": true,
+          "taxable": false,
+          "featured_image": null,
+          "available": true,
+          "price": "1199.00",
+          "grams": 0,
+          "compare_at_price": null,
+          "position": 1,
+          "product_id": 8882601656478,
+          "created_at": "2026-09-14T13:24:03+05:30",
+          "updated_at": "2026-10-31T21:27:00+05:30"
+        }
+      ],
+      "images": [
+        {
+          "id": 53163503550622,
+          "created_at": "2026-10-30T19:50:45+05:30",
+          "position": 1,
+          "updated_at": "2026-10-30T19:50:46+05:30",
+          "product_id": 8882601656478,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0794/1105/2702/files/OBSIDIANBOX.jpg?v=1793370046",
+          "width": 2000,
+          "height": 2000
+        },
+        {
+          "id": 53168573382814,
+          "created_at": "2026-10-31T00:23:28+05:30",
+          "position": 2,
+          "updated_at": "2026-10-31T00:23:30+05:30",
+          "product_id": 8882601656478,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0794/1105/2702/files/DOMANI_Obsidian_Leather_Square_1024.jpg?v=1793386410",
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "id": 53173280178334,
+          "created_at": "2026-10-31T09:02:12+05:30",
+          "position": 3,
+          "updated_at": "2026-10-31T09:02:13+05:30",
+          "product_id": 8882601656478,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0794/1105/2702/files/OBSIDIANBOXANDBOTTLE.jpg?v=1793417533",
+          "width": 2000,
+          "height": 2000
+        },
+        {
+          "id": 53168568041630,
+          "created_at": "2026-10-31T00:23:13+05:30",
+          "position": 4,
+          "updated_at": "2026-10-31T00:23:15+05:30",
+          "product_id": 8882601656478,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0794/1105/2702/files/OBSIDIANBOTTLE.jpg?v=1793386395",
+          "width": 2000,
+          "height": 2000
+        }
+      ],
+      "options": [
+        {
+          "name": "Title",
+          "position": 1,
+          "values": [
+            "Default Title"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 8882601328798,
+      "title": "AZZURO",
+      "handle": "azzuro",
+      "body_html": "<p><meta charset=\"utf-8\">Clean, cool and breezy. Peppermint, lavender and rosemary meet the mineral freshness of sea water, while sandalwood, neroli, geranium and jasmine soften the heart. Musk, ambergris, cedarwood, tobacco and oakmoss give it a smooth, woody finish.</p>",
+      "published_at": "2026-09-14T13:23:50+05:30",
+      "created_at": "2026-09-14T13:23:49+05:30",
+      "updated_at": "2026-10-31T21:27:00+05:30",
+      "vendor": "Domani",
+      "product_type": "Parfum",
+      "tags": [
+        "aquatic",
+        "fragrance",
+        "fresh",
+        "lavender",
+        "parfum"
+      ],
+      "variants": [
+        {
+          "id": 48268980748446,
+          "title": "Default Title",
+          "option1": "Default Title",
+          "option2": null,
+          "option3": null,
+          "sku": null,
+          "requires_shipping": true,
+          "taxable": true,
+          "featured_image": null,
+          "available": true,
+          "price": "1199.00",
+          "grams": 0,
+          "compare_at_price": null,
+          "position": 1,
+          "product_id": 8882601328798,
+          "created_at": "2026-09-14T13:23:49+05:30",
+          "updated_at": "2026-10-31T21:27:00+05:30"
+        }
+      ],
+      "images": [
+        {
+          "id": 53163513053342,
+          "created_at": "2026-10-30T19:51:45+05:30",
+          "position": 1,
+          "updated_at": "2026-10-30T19:51:46+05:30",
+          "product_id": 8882601328798,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0794/1105/2702/files/AZURROBOX.jpg?v=1793370106",
+          "width": 2000,
+          "height": 2000
+        },
+        {
+          "id": 53173298921630,
+          "created_at": "2026-10-31T09:18:27+05:30",
+          "position": 2,
+          "updated_at": "2026-10-31T09:18:28+05:30",
+          "product_id": 8882601328798,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0794/1105/2702/files/DOMANI_Azzuro_Botanical_Square_2048.jpg?v=1793418508",
+          "width": 2048,
+          "height": 2048
+        },
+        {
+          "id": 53173280211102,
+          "created_at": "2026-10-31T09:02:35+05:30",
+          "position": 3,
+          "updated_at": "2026-10-31T09:02:37+05:30",
+          "product_id": 8882601328798,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0794/1105/2702/files/AZZUROBOXANDBOTTLE.jpg?v=1793417557",
+          "width": 2000,
+          "height": 2000
+        },
+        {
+          "id": 53168533569694,
+          "created_at": "2026-10-31T00:21:27+05:30",
+          "position": 4,
+          "updated_at": "2026-10-31T00:21:29+05:30",
+          "product_id": 8882601328798,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0794/1105/2702/files/AZZUROBOTTLE.jpg?v=1793386289",
+          "width": 2000,
+          "height": 2000
+        }
+      ],
+      "options": [
+        {
+          "name": "Title",
+          "position": 1,
+          "values": [
+            "Default Title"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 8882601033886,
+      "title": "VELORA",
+      "handle": "velora",
+      "body_html": "<p><meta charset=\"utf-8\">Radiant and resinous. Saffron and jasmine open with a golden glow, followed by amberwood and ambergris at the heart. Fir resin, cedar and oakmoss ground the scent in a deep, earthy base.</p>",
+      "published_at": "2026-09-14T13:23:37+05:30",
+      "created_at": "2026-09-14T13:23:36+05:30",
+      "updated_at": "2026-10-31T21:27:00+05:30",
+      "vendor": "Domani",
+      "product_type": "Parfum",
+      "tags": [
+        "amber",
+        "fragrance",
+        "oud",
+        "parfum",
+        "saffron"
+      ],
+      "variants": [
+        {
+          "id": 48268972490910,
+          "title": "Default Title",
+          "option1": "Default Title",
+          "option2": null,
+          "option3": null,
+          "sku": null,
+          "requires_shipping": true,
+          "taxable": true,
+          "featured_image": null,
+          "available": true,
+          "price": "1199.00",
+          "grams": 0,
+          "compare_at_price": null,
+          "position": 1,
+          "product_id": 8882601033886,
+          "created_at": "2026-09-14T13:23:36+05:30",
+          "updated_at": "2026-10-31T21:27:00+05:30"
+        }
+      ],
+      "images": [
+        {
+          "id": 53163547525278,
+          "created_at": "2026-10-30T19:55:17+05:30",
+          "position": 1,
+          "updated_at": "2026-10-30T19:55:18+05:30",
+          "product_id": 8882601033886,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0794/1105/2702/files/VERLORA_BOX.jpg?v=1793370318",
+          "width": 2000,
+          "height": 2000
+        },
+        {
+          "id": 53163881693342,
+          "created_at": "2026-10-30T20:26:17+05:30",
+          "position": 2,
+          "updated_at": "2026-10-30T20:26:19+05:30",
+          "product_id": 8882601033886,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0794/1105/2702/files/Creative_Shopify_b5f3c067-c824-43e6-8e9b-b672b954c693.jpg?v=1793372179",
+          "width": 2048,
+          "height": 2048
+        },
+        {
+          "id": 53173281194142,
+          "created_at": "2026-10-31T09:04:33+05:30",
+          "position": 3,
+          "updated_at": "2026-10-31T09:04:35+05:30",
+          "product_id": 8882601033886,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0794/1105/2702/files/VELORABOXANDBOTTLE.jpg?v=1793417675",
+          "width": 2000,
+          "height": 2000
+        },
+        {
+          "id": 53168540975262,
+          "created_at": "2026-10-31T00:21:50+05:30",
+          "position": 4,
+          "updated_at": "2026-10-31T00:21:51+05:30",
+          "product_id": 8882601033886,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0794/1105/2702/files/VELORABOTTLE.jpg?v=1793386311",
+          "width": 2000,
+          "height": 2000
+        }
+      ],
+      "options": [
+        {
+          "name": "Title",
+          "position": 1,
+          "values": [
+            "Default Title"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 8882600706206,
+      "title": "INIZIO",
+      "handle": "inizio",
+      "body_html": "<p><meta charset=\"utf-8\">Inizio means beginning, and it opens with the cool, aromatic spice of green cardamom. A heart of toffee and warm woods brings golden sweetness, while amberwood and bourbon vanilla settle into a smooth, comforting base.</p>",
+      "published_at": "2026-09-14T13:23:24+05:30",
+      "created_at": "2026-09-14T13:23:23+05:30",
+      "updated_at": "2026-10-31T21:27:00+05:30",
+      "vendor": "Domani",
+      "product_type": "Parfum",
+      "tags": [
+        "amber",
+        "fragrance",
+        "parfum",
+        "vanilla",
+        "warm"
+      ],
+      "variants": [
+        {
+          "id": 48268962103454,
+          "title": "Default Title",
+          "option1": "Default Title",
+          "option2": null,
+          "option3": null,
+          "sku": null,
+          "requires_shipping": true,
+          "taxable": true,
+          "featured_image": null,
+          "available": true,
+          "price": "1199.00",
+          "grams": 0,
+          "compare_at_price": null,
+          "position": 1,
+          "product_id": 8882600706206,
+          "created_at": "2026-09-14T13:23:23+05:30",
+          "updated_at": "2026-10-31T21:27:00+05:30"
+        }
+      ],
+      "images": [
+        {
+          "id": 53163560894622,
+          "created_at": "2026-10-30T19:56:22+05:30",
+          "position": 1,
+          "updated_at": "2026-10-30T19:56:24+05:30",
+          "product_id": 8882600706206,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0794/1105/2702/files/INIZIOBOX.jpg?v=1793370384",
+          "width": 2000,
+          "height": 2000
+        },
+        {
+          "id": 53163890966686,
+          "created_at": "2026-10-30T20:26:53+05:30",
+          "position": 2,
+          "updated_at": "2026-10-30T20:26:55+05:30",
+          "product_id": 8882600706206,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0794/1105/2702/files/Creative_Shopify_1c5dbb5d-f96b-4c2a-852b-d153518ca8a8.jpg?v=1793372215",
+          "width": 2048,
+          "height": 2048
+        },
+        {
+          "id": 53173281325214,
+          "created_at": "2026-10-31T09:04:53+05:30",
+          "position": 3,
+          "updated_at": "2026-10-31T09:04:54+05:30",
+          "product_id": 8882600706206,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0794/1105/2702/files/INIZIOBOXANDBOTTLE.jpg?v=1793417694",
+          "width": 2000,
+          "height": 2000
+        },
+        {
+          "id": 53168561717406,
+          "created_at": "2026-10-31T00:22:53+05:30",
+          "position": 4,
+          "updated_at": "2026-10-31T00:22:55+05:30",
+          "product_id": 8882600706206,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0794/1105/2702/files/INIZIOBOTTLE.jpg?v=1793386375",
+          "width": 2000,
+          "height": 2000
+        }
+      ],
+      "options": [
+        {
+          "name": "Title",
+          "position": 1,
+          "values": [
+            "Default Title"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 8882031198366,
+      "title": "ALBORI",
+      "handle": "albori",
+      "body_html": "<p><meta charset=\"utf-8\">Sweet, smooth and softly spiced. Albori begins with the brightness of pear and the gentle warmth of pink pepper over orange blossom. At its heart, roasted coffee and bitter almond meet jasmine and a hint of licorice, before vanilla, patchouli and cashmere wood leave a creamy trail.</p>",
+      "published_at": "2026-09-13T19:47:17+05:30",
+      "created_at": "2026-09-13T19:47:16+05:30",
+      "updated_at": "2026-10-31T21:27:00+05:30",
+      "vendor": "My Store",
+      "product_type": "",
+      "tags": [
+        "FLORAL",
+        "parfum",
+        "UNISEX"
+      ],
+      "variants": [
+        {
+          "id": 48265801302174,
+          "title": "Default Title",
+          "option1": "Default Title",
+          "option2": null,
+          "option3": null,
+          "sku": null,
+          "requires_shipping": true,
+          "taxable": true,
+          "featured_image": null,
+          "available": true,
+          "price": "1199.00",
+          "grams": 0,
+          "compare_at_price": null,
+          "position": 1,
+          "product_id": 8882031198366,
+          "created_at": "2026-09-13T19:47:16+05:30",
+          "updated_at": "2026-10-31T21:27:00+05:30"
+        }
+      ],
+      "images": [
+        {
+          "id": 53163568824478,
+          "created_at": "2026-10-30T19:57:11+05:30",
+          "position": 1,
+          "updated_at": "2026-10-30T19:57:13+05:30",
+          "product_id": 8882031198366,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0794/1105/2702/files/ALBORIBOX.jpg?v=1793370433",
+          "width": 2000,
+          "height": 2000
+        },
+        {
+          "id": 53163921440926,
+          "created_at": "2026-10-30T20:28:58+05:30",
+          "position": 2,
+          "updated_at": "2026-10-30T20:29:00+05:30",
+          "product_id": 8882031198366,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0794/1105/2702/files/Creative02_Albori.jpg?v=1793372340",
+          "width": 2048,
+          "height": 2048
+        },
+        {
+          "id": 53173281882270,
+          "created_at": "2026-10-31T09:05:40+05:30",
+          "position": 3,
+          "updated_at": "2026-10-31T09:05:42+05:30",
+          "product_id": 8882031198366,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0794/1105/2702/files/ALBORIBOXANDBOTTLE.jpg?v=1793417742",
+          "width": 2000,
+          "height": 2000
+        },
+        {
+          "id": 53168338993310,
+          "created_at": "2026-10-31T00:10:23+05:30",
+          "position": 4,
+          "updated_at": "2026-10-31T00:10:24+05:30",
+          "product_id": 8882031198366,
+          "variant_ids": [],
+          "src": "https://cdn.shopify.com/s/files/1/0794/1105/2702/files/ALBORI_BOTTLE.jpg?v=1793385624",
+          "width": 2000,
+          "height": 2000
+        }
+      ],
+      "options": [
+        {
+          "name": "Title",
+          "position": 1,
+          "values": [
+            "Default Title"
+          ]
+        }
+      ]
+    }
+  ]
+}

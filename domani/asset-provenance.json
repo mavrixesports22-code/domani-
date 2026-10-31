@@ -1,0 +1,9 @@
+{
+  "officialSource": "https://www.domani.in/",
+  "wordmark": "/domani/assets/wordmark.svg",
+  "zoomLogo": "/domani/marks/monogram.svg",
+  "generatedHero": "/domani/assets/obsidian-cinematic-hero.png",
+  "generationTool": "built-in image_gen",
+  "prompt": "Photorealistic luxury DOMANI Obsidian campaign hero. Preserve exact official bottle geometry, faceted crystal stopper, silver collar, champagne liquid, vertical OBSIDIAN plaque and DOMANI wordmark. Monumental bottle on dark burgundy stone in a sculptural oxblood-red room, dramatic amber caustic side light, center-left negative space for the existing white wordmark. No people, clothing, extra bottles or advertising text. Product reference: OBSIDIANBOTTLE.jpg; brand style reference: official red Obsidian room image.",
+  "motion": "Eight-second subtle zoom loops from the generated hero and official campaign photographs. Existing player/GSAP code retained."
+}
