@@ -14,5 +14,20 @@
     ],
     "rendering": "Six CSS 3D carton faces. The original photographs are clipped to the box fronts with CSS; side and top faces use matching colours and brand text. No generated replacement artwork.",
     "interaction": "Pointer drag rotates the carton in perspective; horizontal swipe or arrow keys moves between fragrances. Motion respects reduced-motion preference."
+  },
+  "orbitShowcase": {
+    "layout": "Six orbit items: ALBORI, AZZURO and OBSIDIAN, each shown once as a carton and once as a bottle.",
+    "bottleAssets": [
+      "/domani/assets/albori-3d-transparent.png",
+      "/domani/assets/azzuro-3d-transparent.png",
+      "/domani/assets/obsidian-3d-transparent.png"
+    ],
+    "generationTool": "built-in image_gen",
+    "promptSet": [
+      "Edit official ALBORI_BOTTLE.jpg into one photorealistic 3D-style full upright front-facing perfume bottle cutout. Preserve diamond crystal stopper, chrome collar, clear beveled glass, pale champagne liquid, vertical ALBORI label and DOMANI text. Genuine transparent background, no floor, props or cast shadow, centered portrait framing with margins.",
+      "Edit official AZZUROBOTTLE.jpg into one matching transparent premium 3D-style product render, using the ALBORI render only as a lighting and framing reference. Preserve AZZURO and DOMANI label wording and official bottle identity. No props, background, floor, glow or cast shadow.",
+      "Edit official OBSIDIANBOTTLE.jpg into one matching transparent premium 3D-style product render, using the ALBORI render only as a lighting and framing reference. Preserve OBSIDIAN and DOMANI label wording and official bottle identity. No props, background, floor, glow or cast shadow."
+    ],
+    "motion": "Original orbit and DOMANI mask zoom retained. Individual items tilt in perspective during orbit; hover increases item scale."
   }
 }
