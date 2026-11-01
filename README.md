@@ -4,6 +4,8 @@ The existing 20-page Grace recreation now uses verified DOMANI product informati
 
 Run `npm start` and open http://127.0.0.1:4187. Run `npm run check` for asset checks and `npm run build` for the deployable dist directory.
 
+Vercel serves `dist/` as a static site. The build publishes the customized captured bundles under `/_next/static/domani/` and rewrites the HTML and bundle references to match. Keep them out of `/_next/static/immutable/`: their original content hashes no longer match the edited files, which causes Vercel to reject the deployment with `IMMUTABLE_STATIC_HASH_MISMATCH`. Source captures retain their original paths for local development.
+
 The zoom mark uses the official DOMANI vector monogram, fitted to the existing mask and clip-path. Its original scroll animation and orbit scene remain intact. The wordmark and favicon also use the official SVG brand artwork.
 
 Official sources: https://www.domani.in/ and its six product pages, story, FAQ and policies. Current source catalog and asset references are retained under domani/. Captured research and browser evidence are under ignored .captures/.

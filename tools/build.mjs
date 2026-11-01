@@ -14,6 +14,31 @@ const routes=['','features','team','faq','book','imprint','dataprivacy','blog'];
 const blogs=await fs.readdir(path.join(root,'blog'),{withFileTypes:true});
 routes.push(...blogs.filter(x=>x.isDirectory()&&!x.name.includes('$')).map(x=>'blog/'+x.name));
 for(const route of routes){await fs.mkdir(path.join(dist,route),{recursive:true});await fs.copyFile(path.join(root,route,'index.html'),path.join(dist,route,'index.html'));}
+
+// The captured bundles were edited for DOMANI, so their original filenames no
+// longer contain valid content hashes. Vercel validates /_next/static/immutable/
+// as content-addressed assets and rejects these files at the upload stage with
+// IMMUTABLE_STATIC_HASH_MISMATCH. Publish them as ordinary static assets instead.
+const capturedAssets=path.join(dist,'_next/static/immutable');
+const publishedAssets=path.join(dist,'_next/static/domani');
+await fs.rename(capturedAssets,publishedAssets);
+let rewrittenFiles=0;
+async function rewriteAssetPaths(directory){
+  for(const entry of await fs.readdir(directory,{withFileTypes:true})){
+    const filename=path.join(directory,entry.name);
+    if(entry.isDirectory()){
+      await rewriteAssetPaths(filename);
+    }else if(/\.(html|js|css|json|webmanifest)$/.test(entry.name)){
+      const original=await fs.readFile(filename,'utf8');
+      const rewritten=original.replaceAll('static/immutable','static/domani');
+      if(rewritten!==original){
+        await fs.writeFile(filename,rewritten);
+        rewrittenFiles++;
+      }
+    }
+  }
+}
+await rewriteAssetPaths(dist);
 await fs.mkdir(path.join(dist,'_vercel/insights'),{recursive:true});
 await fs.writeFile(path.join(dist,'_vercel/insights/script.js'),'/* Reference analytics disabled in this recreation. */');
-console.log(`Built ${routes.length} pages into dist.`);
+console.log(`Built ${routes.length} pages into dist; updated asset paths in ${rewrittenFiles} files.`);
