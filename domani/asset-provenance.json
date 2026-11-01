@@ -5,5 +5,14 @@
   "generatedHero": "/domani/assets/obsidian-cinematic-hero.png",
   "generationTool": "built-in image_gen",
   "prompt": "Photorealistic luxury DOMANI Obsidian campaign hero. Preserve exact official bottle geometry, faceted crystal stopper, silver collar, champagne liquid, vertical OBSIDIAN plaque and DOMANI wordmark. Monumental bottle on dark burgundy stone in a sculptural oxblood-red room, dramatic amber caustic side light, center-left negative space for the existing white wordmark. No people, clothing, extra bottles or advertising text. Product reference: OBSIDIANBOTTLE.jpg; brand style reference: official red Obsidian room image.",
-  "motion": "Eight-second subtle zoom loops from the generated hero and official campaign photographs. Existing player/GSAP code retained."
+  "motion": "Eight-second subtle zoom loops from the generated hero and official campaign photographs. Existing player/GSAP code retained.",
+  "packagingShowcase": {
+    "frontArtwork": [
+      "/domani/assets/ALBORIBOX.jpg",
+      "/domani/assets/AZURROBOX.jpg",
+      "/domani/assets/OBSIDIANBOX.jpg"
+    ],
+    "rendering": "Six CSS 3D carton faces. The original photographs are clipped to the box fronts with CSS; side and top faces use matching colours and brand text. No generated replacement artwork.",
+    "interaction": "Pointer drag rotates the carton in perspective; horizontal swipe or arrow keys moves between fragrances. Motion respects reduced-motion preference."
+  }
 }

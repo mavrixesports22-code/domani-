@@ -10,3 +10,33 @@
 .local-booking-note{position:fixed;z-index:45;left:50%;bottom:12px;transform:translateX(-50%);width:max-content;max-width:calc(100vw - 24px);padding:10px 16px;border:1px solid #ffffff30;border-radius:8px;background:#090909ed;color:#ffffffb3;text-align:center;font-size:12px;line-height:1.5;backdrop-filter:blur(14px)}
 .local-booking-note a{color:white;text-decoration:underline;text-underline-offset:3px}
 @media(max-width:480px){#local-cookie-panel{left:12px;bottom:12px;width:calc(100vw - 24px);padding:15px 16px 14px}}
+
+/* Six real CSS faces give the official packaging depth without a photo backdrop. */
+.deck-photos{perspective:1200px;isolation:isolate}
+.domani-product-card{background:transparent!important;transform-origin:50% 55%;will-change:transform,opacity}
+.domani-product-stage{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;perspective:1200px;cursor:grab;touch-action:pan-y;user-select:none;-webkit-user-select:none;outline:none}
+.domani-product-stage:active{cursor:grabbing}
+.domani-product-stage:focus-visible{outline:1px solid #0004;outline-offset:14px;border-radius:16px}
+.domani-pack{--pack-color:#b5cf8f;--pack-depth:76px;position:relative;height:88%;aspect-ratio:0.684;transform:rotateX(-7deg) rotateY(-18deg);transform-style:preserve-3d;transform-origin:50% 55%;will-change:transform;pointer-events:none;animation:domani-pack-float 6s ease-in-out infinite}
+.domani-pack-azzuro{--pack-color:#007bb5}
+.domani-pack-obsidian{--pack-color:#a42e29}
+.domani-pack-face{position:absolute;box-sizing:border-box;background:var(--pack-color);backface-visibility:hidden;-webkit-backface-visibility:hidden;border:1px solid #00000010}
+.domani-pack-front{inset:0;overflow:hidden;transform:translateZ(calc(var(--pack-depth)/2));background:var(--pack-color)}
+.domani-pack-front img{position:absolute;max-width:none!important;width:231.5%;height:157.8%;left:-67.6%;top:-30.4%;object-fit:fill;pointer-events:none;-webkit-user-drag:none}
+.domani-pack-azzuro .domani-pack-front img{width:231.5%;height:157.5%;left:-67.5%;top:-29.9%}
+.domani-pack-obsidian .domani-pack-front img{width:227.5%;height:156.3%;left:-66%;top:-29.4%}
+.domani-pack-back{inset:0;transform:rotateY(180deg) translateZ(calc(var(--pack-depth)/2));display:grid;place-items:center;background-image:linear-gradient(115deg,#ffffff17,transparent 55%,#00000015)}
+.domani-pack-right,.domani-pack-left{top:0;bottom:0;width:var(--pack-depth);display:flex;align-items:center;justify-content:center}
+.domani-pack-right{right:calc(var(--pack-depth)/-2);transform:rotateY(90deg);background-image:linear-gradient(90deg,#00000020,#00000005)}
+.domani-pack-left{left:calc(var(--pack-depth)/-2);transform:rotateY(-90deg);background-image:linear-gradient(90deg,#00000025,#ffffff12)}
+.domani-pack-top,.domani-pack-bottom{left:0;right:0;height:var(--pack-depth);display:grid;place-items:center}
+.domani-pack-top{top:calc(var(--pack-depth)/-2);transform:rotateX(90deg);background-image:linear-gradient(#ffffff25,#ffffff0c)}
+.domani-pack-bottom{bottom:calc(var(--pack-depth)/-2);transform:rotateX(-90deg);background-image:linear-gradient(#00000020,#00000030)}
+.domani-pack-face span{font-family:Georgia,'Times New Roman',serif;letter-spacing:.15em;font-size:15px;color:#f9f1dacc;font-weight:400}
+.domani-pack-right span,.domani-pack-left span{writing-mode:vertical-rl;font-size:13px;letter-spacing:.24em}
+.domani-pack-back span{font-size:27px;letter-spacing:.1em}
+.domani-product-hint{position:absolute;bottom:-20px;left:0;right:0;text-align:center;font-size:10px;line-height:1.5;letter-spacing:.14em;text-transform:uppercase;color:#777;pointer-events:none;opacity:.7}
+.domani-product-stage:active .domani-product-hint{opacity:.35}
+@keyframes domani-pack-float{0%,100%{translate:0 0}50%{translate:0 -6px}}
+@media(max-width:767px){.domani-pack{height:82%;--pack-depth:52px}.domani-product-hint{bottom:-8px;font-size:9px;letter-spacing:.09em}.domani-pack-top span{font-size:11px}.domani-pack-back span{font-size:19px}}
+@media(prefers-reduced-motion:reduce){.domani-pack{animation:none;will-change:auto}.domani-product-card{will-change:auto}}

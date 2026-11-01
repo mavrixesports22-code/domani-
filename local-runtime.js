@@ -42,6 +42,58 @@
   };
 
   const ready = () => {
+    const reducedMotion=window.matchMedia('(prefers-reduced-motion: reduce)');
+    let productGesture=null;
+    const discoverProduct=(stage,direction)=>{
+      const deck=stage.closest('.deck-photos');
+      const cards=deck?[...deck.querySelectorAll('.domani-product-card')]:[];
+      const current=cards.indexOf(stage.closest('.domani-product-card'));
+      const track=deck?.closest('section')?.firstElementChild;
+      if(!track||current<0||cards.length<2)return;
+      const next=(current+direction+cards.length)%cards.length;
+      const range=Math.max(0,track.offsetHeight-window.innerHeight);
+      const top=window.scrollY+track.getBoundingClientRect().top+range*((next+.96)/cards.length);
+      window.scrollTo({top,behavior:reducedMotion.matches?'instant':'smooth'});
+    };
+    document.addEventListener('pointerdown',event=>{
+      const stage=event.target.closest?.('.domani-product-stage');
+      if(!stage||event.button!==0||!event.isPrimary)return;
+      const image=stage.querySelector('.domani-pack');
+      if(!image)return;
+      image.getAnimations().filter(animation=>animation.effect?.getKeyframes().some(frame=>frame.transform)).forEach(animation=>animation.cancel());
+      productGesture={stage,image,id:event.pointerId,x:event.clientX,y:event.clientY,dx:0,dy:0};
+      stage.setPointerCapture(event.pointerId);
+    });
+    document.addEventListener('pointermove',event=>{
+      const gesture=productGesture;
+      if(!gesture||event.pointerId!==gesture.id)return;
+      gesture.dx=event.clientX-gesture.x;
+      gesture.dy=event.clientY-gesture.y;
+      if(reducedMotion.matches)return;
+      const yaw=-18+gesture.dx*.65;
+      const pitch=-7+Math.max(-12,Math.min(12,-gesture.dy*.06));
+      const roll=Math.max(-9,Math.min(9,gesture.dx*.035));
+      gesture.image.style.transform=`rotateX(${pitch}deg) rotateY(${yaw}deg) rotateZ(${roll}deg) scale(1.035)`;
+    },{passive:true});
+    const settleProduct=(event,cancelled=false)=>{
+      const gesture=productGesture;
+      if(!gesture||event.pointerId!==gesture.id)return;
+      productGesture=null;
+      if(gesture.stage.hasPointerCapture(event.pointerId))gesture.stage.releasePointerCapture(event.pointerId);
+      const from=gesture.image.style.transform||'none';
+      gesture.image.style.transform='rotateX(-7deg) rotateY(-18deg)';
+      if(!reducedMotion.matches)gesture.image.animate([{transform:from},{transform:'rotateX(-7deg) rotateY(-18deg) rotateZ(0deg) scale(1)'}],{duration:750,easing:'cubic-bezier(.16,1,.3,1)'});
+      const threshold=Math.min(90,gesture.stage.clientWidth*.22);
+      if(!cancelled&&Math.abs(gesture.dx)>threshold&&Math.abs(gesture.dx)>Math.abs(gesture.dy)*1.3)discoverProduct(gesture.stage,gesture.dx<0?1:-1);
+    };
+    document.addEventListener('pointerup',event=>settleProduct(event));
+    document.addEventListener('pointercancel',event=>settleProduct(event,true));
+    document.addEventListener('keydown',event=>{
+      const stage=event.target.closest?.('.domani-product-stage');
+      if(!stage||!['ArrowLeft','ArrowRight'].includes(event.key))return;
+      event.preventDefault();
+      discoverProduct(stage,event.key==='ArrowRight'?1:-1);
+    });
     const panel = document.createElement('aside');
     panel.id = 'local-cookie-panel';
     panel.setAttribute('aria-label','Cookie preferences');
