@@ -1,6 +1,8 @@
 # DOMANI content in the Grace UI
 
-The existing 20-page Grace recreation now uses verified DOMANI product information, official brand assets, perfume photography and source-backed reviews. The original CSS, layout, typography and motion timelines are retained. No cart, checkout or additional product flow has been added.
+The existing 20-page Grace recreation now uses verified DOMANI product information, official brand assets, perfume photography and source-backed reviews. The original layout and typography are retained, with an interactive 3D packaging showcase.
+
+The packaging showcase displays 50 ml Parfum and ₹1,199 with Add to Cart and Buy Now links. Each link uses the matching verified Shopify variant on the official DOMANI store: Add to Cart opens the store cart, and Buy Now opens checkout. Payments are handled by the official store.
 
 Run `npm start` and open http://127.0.0.1:4187. Run `npm run check` for asset checks and `npm run build` for the deployable dist directory.
 

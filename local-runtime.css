@@ -35,8 +35,18 @@
 .domani-pack-face span{font-family:Georgia,'Times New Roman',serif;letter-spacing:.15em;font-size:15px;color:#f9f1dacc;font-weight:400}
 .domani-pack-right span,.domani-pack-left span{writing-mode:vertical-rl;font-size:13px;letter-spacing:.24em}
 .domani-pack-back span{font-size:27px;letter-spacing:.1em}
-.domani-product-hint{position:absolute;bottom:-20px;left:0;right:0;text-align:center;font-size:10px;line-height:1.5;letter-spacing:.14em;text-transform:uppercase;color:#777;pointer-events:none;opacity:.7}
-.domani-product-stage:active .domani-product-hint{opacity:.35}
+.domani-product-purchase{position:absolute;bottom:-24px;left:50%;transform:translateX(-50%);width:min(100%,340px);cursor:auto;touch-action:manipulation}
+.domani-product-meta{display:flex;align-items:center;justify-content:center;gap:18px;margin:0 0 12px;color:#777;font-size:12px;line-height:1.4;letter-spacing:.02em}
+.domani-product-meta strong{font-size:14px;font-weight:500;color:#111;letter-spacing:0}
+.domani-product-actions{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.domani-product-actions a{display:flex;align-items:center;justify-content:center;min-height:44px;padding:0 18px;box-sizing:border-box;border:1px solid #d8d8d8;border-radius:999px;text-decoration:none;font-size:12px;font-weight:500;line-height:1;letter-spacing:.01em;cursor:pointer;transition:background .2s,color .2s,border-color .2s,transform .2s}
+.domani-product-cart{background:#fff;color:#111}
+.domani-product-cart:hover{background:#f5f5f5;border-color:#999}
+.domani-product-actions .domani-product-buy{background:#111;color:#fff;border-color:#111}
+.domani-product-actions .domani-product-buy:hover{background:#333;border-color:#333}
+.domani-product-actions a:active{transform:scale(.98)}
+.domani-product-actions a:focus-visible{outline:2px solid #111;outline-offset:4px}
+.domani-pack{height:80%;top:-28px}
 @keyframes domani-pack-float{0%,100%{translate:0 0}50%{translate:0 -6px}}
-@media(max-width:767px){.domani-pack{height:82%;--pack-depth:52px}.domani-product-hint{bottom:-8px;font-size:9px;letter-spacing:.09em}.domani-pack-top span{font-size:11px}.domani-pack-back span{font-size:19px}}
+@media(max-width:767px){.domani-pack{height:70%;top:-32px;--pack-depth:52px}.domani-product-purchase{bottom:0;width:min(94%,320px)}.domani-product-meta{font-size:11px;margin-bottom:10px}.domani-product-actions a{min-height:44px;padding:0 12px;font-size:11px}.domani-pack-top span{font-size:11px}.domani-pack-back span{font-size:19px}}
 @media(prefers-reduced-motion:reduce){.domani-pack{animation:none;will-change:auto}.domani-product-card{will-change:auto}}

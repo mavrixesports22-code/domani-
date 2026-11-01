@@ -57,7 +57,7 @@
     };
     document.addEventListener('pointerdown',event=>{
       const stage=event.target.closest?.('.domani-product-stage');
-      if(!stage||event.button!==0||!event.isPrimary)return;
+      if(!stage||event.target.closest('a,button,.domani-product-purchase')||event.button!==0||!event.isPrimary)return;
       const image=stage.querySelector('.domani-pack');
       if(!image)return;
       image.getAnimations().filter(animation=>animation.effect?.getKeyframes().some(frame=>frame.transform)).forEach(animation=>animation.cancel());
@@ -90,7 +90,7 @@
     document.addEventListener('pointercancel',event=>settleProduct(event,true));
     document.addEventListener('keydown',event=>{
       const stage=event.target.closest?.('.domani-product-stage');
-      if(!stage||!['ArrowLeft','ArrowRight'].includes(event.key))return;
+      if(!stage||event.target!==stage||!['ArrowLeft','ArrowRight'].includes(event.key))return;
       event.preventDefault();
       discoverProduct(stage,event.key==='ArrowRight'?1:-1);
     });
