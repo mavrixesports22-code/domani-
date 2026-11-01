@@ -2,6 +2,7 @@ import fs from 'node:fs/promises';
 import path from 'node:path';
 const root=path.resolve(import.meta.dirname,'..');
 const dist=path.join(root,'dist');
+await fs.rm(dist,{recursive:true,force:true});
 await fs.mkdir(dist,{recursive:true});
 const entries=await fs.readdir(root,{withFileTypes:true});
 const assetDirectories=new Set(['_next','favicon','gallery','logos','models','shots','team','domani']);

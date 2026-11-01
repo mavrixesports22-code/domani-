@@ -1,6 +1,6 @@
-.captures/
-node_modules/
+/.captures/
+/.openai/
+/node_modules/
+/dist/
+/.vercel/
 *.zip
-.vercel/
-
-.vercel
